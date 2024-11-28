@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 134, 134);
+}
+
+.header {
+    background-color: rgb(94, 13, 13);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 43px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+.linux {
+    width: 50vh;
+    height: 25%;
+}
+
+.announcement {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.announcement h2 {
+    margin: 20px 0 10px;
+}
+
+.announcement p {
+    margin: 10px 0;
+}
+
+.announcement .date {
+    color: gray;
+    font-size: 0.9em;
+}
